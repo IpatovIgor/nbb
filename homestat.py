@@ -24,6 +24,7 @@ def get_all_year_stat(stat):
                 all_students_dict[i] += element.names_dict[i]
     return all_students_dict
 
+cqcwas = 1
 
 def make_stat(filename):
     file_text = open(filename, "r", encoding="cp1251").read()
